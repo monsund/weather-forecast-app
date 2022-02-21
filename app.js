@@ -20,7 +20,7 @@ function createServer(){
     app.use('/weather', weatherRoutes);
 
     app.get('/', (req, res) => {
-        res.send('Hello to Travel Memories API');
+        res.send('Welcome to World Cities Weather Forecast API');
     });
     
     // connect to MongoDB---
