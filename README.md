@@ -26,3 +26,7 @@ To do so run command -  **npm run dbDump**<br>
 3. Created API to return weather forecast details based on city.<br>
 5. Accu weather API is hit only if data does not exist in Database **OR** the data last updated in the DB is before 4 hrs.<br>
 6. Otherwise the API gets data from Database
+<br>
+<br>
+To run the application<br>
+run command - **npm start**
