@@ -7,7 +7,7 @@ getCitiesBySearch API: https://world-city-weather-forecast.herokuapp.com/cities/
 getWeatherForecast API: https://world-city-weather-forecast.herokuapp.com/cities/search?date=${TimeStamp}&cityKey=${cityKey}
 <br>
 <br>
--Frontend code deployed at ***netlify*** <br><br>
+-Frontend code deployed at ***netlify*** <br>
 ***For application preview go to this link-*** https://cities-weather-forecast.netlify.app/
 
 This is the backend repository of the Weather-Forecast-App. This application helps in forecasting weather of the cities around the world. <br>
@@ -29,4 +29,4 @@ To do so run command -  ***npm run dbDump***<br>
 <br>
 <br>
 To run the application<br>
-run command - ***npm start***
+run command - *npm start*
