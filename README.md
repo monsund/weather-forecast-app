@@ -1,5 +1,5 @@
 # weather-forecast-app
-- Backend code deployed at heroku ***server*** 
+- Backend code deployed at ***heroku server*** 
 <br>
 baseUrl: https://world-city-weather-forecast.herokuapp.com/ <br>
 getAllCities API: https://world-city-weather-forecast.herokuapp.com/cities <br>
