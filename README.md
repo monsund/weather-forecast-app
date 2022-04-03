@@ -1,4 +1,4 @@
-# weather-forecast-app
+# weather-forecast-app (https://cities-weather-forecast.netlify.app/)
 - Backend code deployed at ***heroku server*** 
 <br>
 baseUrl: https://world-city-weather-forecast.herokuapp.com/ <br>
