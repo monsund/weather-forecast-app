@@ -19,7 +19,6 @@ const getWeatherData = async (cityKey) => {
     return response.json();
 }
 export const getWeatherDetails = async (req, res) => {
-
     const { date, cityKey } = req.query;
 
     // find existing data in DB
@@ -28,6 +27,7 @@ export const getWeatherDetails = async (req, res) => {
     // if data exists and data was updated within last 4 hours then return data
     if (weatherForecastData && (Date.now() - Number(weatherForecastData.updatedAt)) <= 4 * 60 * 60 * 1000) {
         console.log('weather data exist and is updated within last 4 hours')
+
         return res.status(200).json({ data: weatherForecastData })
     } else {
         console.log("otherwise")
