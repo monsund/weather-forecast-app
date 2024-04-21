@@ -6,7 +6,7 @@ import cityCollection from '../models/cityModel.js';
 
 dotenv.config();
 
-// Accu wether api for City list--
+// Accu weather api for City list--
 const accuWeatherCityApiUrl = 'http://dataservice.accuweather.com/locations/v1/topcities/100?apikey=8WitGYa9xApS31dQ2qRdBXdX2ARSPmDp&language=en-us&details=false';
 
 const mongoDbUrl = process.env.MONGODB_URL
@@ -39,6 +39,6 @@ const dumpCity = async  () => {
 
     return cities;
 }
-
+// uncomment this line after all the city data is stored in DB
 // dumpCity();
 

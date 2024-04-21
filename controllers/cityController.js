@@ -3,7 +3,6 @@ import cityCollection from "../models/cityModel.js";
 export const getAllCities = async (req, res) => {
     try{
         const cities = await cityCollection.find();
-        console.log('cities', cities)
         res.status(200).json({data: cities});
     } catch(err) {
         res.status(404).json({ message: err });
