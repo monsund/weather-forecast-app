@@ -5,7 +5,6 @@ import mongoose from 'mongoose';
 
 import cityRoutes from './routes/cityRoutes.js';
 import weatherRoutes from './routes/weatherRoutes.js'
-import moment from 'moment';
 import dotenv from 'dotenv';
 
 function createServer(){
